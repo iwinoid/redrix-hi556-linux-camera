@@ -1,0 +1,12 @@
+[Unit]
+Description=Clean HI556 H8B5 raw V4L2 to v4l2loopback bridge
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/clean-camera-bridge.sh
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

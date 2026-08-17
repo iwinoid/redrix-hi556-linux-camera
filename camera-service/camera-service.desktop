@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Camera Service
+Name[zh_CN]=摄像头服务
+Comment=On-demand camera bridge control
+Exec=/usr/local/bin/camera-service
+Icon=camera-web
+Type=Application
+Categories=Utility;
+Terminal=false
